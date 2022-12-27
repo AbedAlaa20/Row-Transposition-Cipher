@@ -83,11 +83,11 @@ string decryptMessage(string cipher)
 	return msg;
 }
 int main(void)
-{	// Plantext
+{
 	string msg = "Geeks for Geeks";
 	setPermutationOrder();
 	string cipher = encryptMessage(msg);
-	cout << "Encrypted Message: " << cipher << endl;
-	cout << "Decrypted Message: " << decryptMessage(cipher) << endl;
+	cout << "Plan text Message: " << cipher << endl;
+	cout << "Cipher text Message: " << decryptMessage(cipher) << endl;
 	return 0;
 }
